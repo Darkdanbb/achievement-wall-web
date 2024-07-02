@@ -1,0 +1,10 @@
+ali-oss-config:
+  endpoint: https://oss-cn-guangzhou.aliyuncs.com
+  bucketName: achievement-wall
+server:
+  port: 7777
+spring:
+  servlet:
+    multipart:
+      max-file-size: 3MB
+      max-request-size: 3MB
